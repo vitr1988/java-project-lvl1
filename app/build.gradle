@@ -27,9 +27,13 @@ dependencies {
     implementation 'com.google.guava:guava:29.0-jre'
 }
 
+compileJava {
+    options.release = 16
+}
+
 application {
     // Define the main class for the application.
-    mainClass = 'app.App'
+    mainClass = 'hexlet.code.App'
 
     group = "hexlet.code"
     version = "1.0.0-SNAPSHOT"
