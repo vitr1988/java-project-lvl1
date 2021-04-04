@@ -3,8 +3,8 @@ all:
 install:
 	./gradlew clean install
 run-dist:
-	.\app\build\install\app\bin\app
+	./app/build/install/app/bin/app
 check-updates:
-	gradlew dependencyUpdates
+	./gradlew dependencyUpdates
 lint:
-	gradlew checkstyleMain
+	./gradlew checkstyleMain
